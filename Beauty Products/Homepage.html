@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family:Lucida Handwriting;
+  padding: 1px;
+  background:pink;
+  color:#1a1a1a;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #ff80ff;
+}
+
+.header h1 {
+  font-size: 50px;
+
+  color: #1a1a1a
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color:#cccccc;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color:#660080;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: underline;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #b3b3b3;
+  color:black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width:75%;
+  background-color:#ffccff;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color:#ffccff;
+  padding-left: 20px;
+}
+
+img {
+  border-radius: 8px;
+}
+/* Add a card effect for articles */
+.card {
+  background-color:#ffe6ff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 10px;
+  text-align: center;
+  background: #ffb3ff;
+  margin-top: 10px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="header">
+  <h1> Nature's Lush...</h1>
+  <p> Let’s be Beautiful. Be Colorful. and Be You.</p>
+</div>
+
+<div class="topnav">
+<a href="#">Register</a>
+<a href="#">Facial Serums</a>
+<a href="#">Facewashes</a> 
+<a href="#">Toners</a>
+<a href="#">Facepacks</a>
+<a href="#"> Cleansers</a>
+<a href="#">Natural Makeup Products</a> 
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h1><i> Organic Products:<i></h1>
+      <div class=height:20px;></div>
+        <img src="Beauty3.jpg" alt="Beauty" width="600" height="300" >
+      <p>Keeping your skin looking healthy and radiant is important,because healthy skin is one of the biggest indicators that tell us whether we are healthy on the inside too. In fact, the skin is the largest organ of our entire body, so we really should trat it with care.</p>
+    </div>
+    <div class="card">
+      <h1>5 Great Reason we think it is important to do so:</h1>
+      <h5> 1. Using natural and organic skincare products can reduce skin irritation unlike non-organic and non-natural products.</h5>
+      <h5> 2. Natural and organic skincare products have stood the test of time.</h5>
+      <h5>3. If you wouldn't eat it don't put it on your skin!</h5>     
+      <h5> 4. Buying better quality, organic and natural products actually means you end up saving a lot in the long run!</h5>
+      <h5> 5. Buying naturally and sustainably sourced products can be much kinder to the environment.</h5>     
+      <div class=height:10px;></div>
+      <img src="Beauty10.jpg" width="600" height="300">
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h1>About Us:</h1>
+      <div class=height:20px;</div>
+        <img src="Beauty9.jpg" alt="Beauty" width="300" height="200">
+      <p>We are Nature's Lush and here to provide you the best organic products which will make your skin clear, glowing and youthful skin. Every female whether she is in her 20's, 30's, or 40's... dreams of a beautiful, clear, glowing skin and spends lots of money on products which are not at all beneficial but also can be harmful to your face. Everyone faces skin issues like acne, darkspots, dull skin, blackheads, whiteheads... and much more so don't worry these are  very normal skin problems which usually every female faces but if you avoid this problems in early stages it can be severe too. So we are here with huge Natural Collection to cure all your skin problems. It's said "Nature is the best medicine" and our Indian culture has a tradition of using natural beauty products so why not bring that tradition back with us. With a blend of natural ingredients and touch of nature's lush providing you the best organic products which will not only cure you skin problems but will also prevent from skin probems. Just do one thing switch to Nature's Lush...   </p>
+    </div>
+   
+    <div class="card">
+      <h1>Follow Us:</h1>
+      <p>On instagram: Nature's_Lush Official</p>
+      <p>On facebook: Nature's_Lush30 Official</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2> Nature's Lush Essence Of Nature!! </h2>
+    <p> Made By:Anushka Salve</p>
+</div>
+
+</body>
+</html>
